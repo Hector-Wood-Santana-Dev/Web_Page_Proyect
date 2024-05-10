@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SlideShow</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src='main.js'></script>
+</head>
+<body>
+    
+    <h1>Wallpaper Gallery</h1>
+    <nav>
+        <a href="">Home</a>
+        <a href="">Gallery</a>
+        <a href="">About</a>
+    </nav>
+
+    <div class="content_gallery">
+        <h2>Welcome to the SlideShow</h2>
+        <p>Click any of the pictures below to start the slideshow.</p>
+        <p>This Slideshow contains all the images from the Gallery.</p>
+        <p>If the pictures dont show, just click in one of the arrows on the end of the black line.</p>
+        <p>If you want to go back to the gallery.</p>
+        <a href="JavaScript:window.close()"><button>Close Slideshow</button></a>
+    </div>
+
+
+    <!-- Container for the image gallery -->
+    <div class="container">
+
+    <!-- Full-width images with number text -->
+    <div class="mySlides">
+      <div class="numbertext">1 / 16</div>
+        <img src="imagenes/imagen1.jpg" style="width:100%" class="All Landscape Cultural Fantasy Cars">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">2 / 16</div>
+        <img src="imagenes/imagen2.jpg" style="width:100%" class="All Cultural Landscape  Fantasy Cars">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">3 / 16</div>
+        <img src="imagenes/imagen3.jpg" style="width:100%" class="All Landscape Cultural  Fantasy Cars">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">4 / 16</div>
+        <img src="imagenes/imagen4.jpg" style="width:100%" class="All Landscape Cultural  Fantasy Cars">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">5 / 16</div>
+        <img src="imagenes/imagen5.jpg" style="width:100%" class="All Cultural Landscape  Fantasy Cars">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">6 / 16</div>
+        <img src="imagenes/imagen6.jpg" style="width:100%" class="All Cultural Landscape  Fantasy Cars">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">7 / 16</div>
+        <img src="imagenes/imagen7.jpg" style="width:100%" class="All Landscape Cultural  Fantasy Cars">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">8 / 16</div>
+        <img src="imagenes/imagen9.jpg" style="width:100%" class="All Cultural Landscape  Fantasy Cars">
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">9 / 16</div>
+        <img src="imagenes/imagen11.jpg" style="width:100%" class="All Cultural Landscape  Fantasy Cars">
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">10 / 16</div>
+        <img src="imagenes/imagen8.jpg" style="width:100%" class="All Cultural Landscape  Fantasy Cars">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">11 / 16</div>
+        <img src="imagenes/imagen12.jpg" style="width:100%" class="All Cultural Landscape  Fantasy Cars">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">12 / 16</div>
+        <img src="imagenes/imagen13.jpg" style="width:100%" class="All Cultural Landscape  Fantasy Cars">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">13 / 16</div>
+        <img src="imagenes/imagen14.jpg" style="width:100%" class="All Cultural Landscape  Fantasy Cars">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">14 / 16</div>
+        <img src="imagenes/imagen15.jpg" style="width:100%" class="All Cultural Landscape  Fantasy Cars">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">15 / 16</div>
+        <img src="imagenes/imagen16.jpg" style="width:100%" class="All Cultural Landscape  Fantasy Cars">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">16 / 16</div>
+        <img src="imagenes/imagen7.jpg" style="width:100%" class="All Cultural Landscape  Fantasy Cars">
+    </div>
+
+
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+    <!-- Image text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+  
+    <!-- Thumbnail images -->
+    <div class="row">
+      <div class="column">
+        <img class="demo cursor" src="imagenes/imagen1.jpg" style="width:100%" onclick="currentSlide(1)" alt="Trip to the east." class="All Landscape Cultural  Fantasy Cars">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="imagenes/imagen2.jpg" style="width:100%" onclick="currentSlide(2)" alt="Enjoy the moment." class="All Cultural Landscape  Fantasy Cars">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="imagenes/imagen3.jpg" style="width:100%" onclick="currentSlide(3)" alt="Reality often best fiction." class="All Landscape Cultural  Fantasy Cars">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="imagenes/imagen4.jpg" style="width:100%" onclick="currentSlide(4)" alt="Never ending summer." class="All Landscape Cultural  Fantasy Cars">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="imagenes/imagen5.jpg" style="width:100%" onclick="currentSlide(5)" alt="Any trip is better with friends." class="All Cultural Landscape  Fantasy Cars">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="imagenes/imagen6.jpg" style="width:100%" onclick="currentSlide(6)" alt="Stop a second and enjoy the moment." class="All Cultural Landscape  Fantasy Cars">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="imagenes/imagen7.jpg" style="width:100%" onclick="currentSlide(7)" alt="Nature is impressive." class="All Landscape Cultural  Fantasy Cars">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="imagenes/imagen9.jpg" style="width:100%" onclick="currentSlide(8)" alt="Mankinds Innovation" class="All Cultural Landscape  Fantasy Cars">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="imagenes/imagen11.jpg" style="width:100%" onclick="currentSlide(9)" alt="Mankinds Innovation" class="All Cultural Landscape  Fantasy Cars">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="imagenes/imagen8.jpg" style="width:100%" onclick="currentSlide(10)" alt="Mankinds Innovation" class="All Cultural Landscape  Fantasy Cars">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="imagenes/imagen12.jpg" style="width:100%" onclick="currentSlide(11)" alt="Mankinds Innovation" class="All Cultural Landscape  Fantasy Cars">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="imagenes/imagen13.jpg" style="width:100%" onclick="currentSlide(12)" alt="Mankinds Innovation" class="All Cultural Landscape  Fantasy Cars">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="imagenes/imagen14.jpg" style="width:100%" onclick="currentSlide(13)" alt="Mankinds Innovation" class="All Cultural Landscape  Fantasy Cars">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="imagenes/imagen15.jpg" style="width:100%" onclick="currentSlide(14)" alt="Mankinds Innovation" class="All Cultural Landscape  Fantasy Cars">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="imagenes/imagen16.jpg" style="width:100%" onclick="currentSlide(15)" alt="Mankinds Innovation" class="All Cultural Landscape  Fantasy Cars">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="imagenes/imagen17.jpg" style="width:100%" onclick="currentSlide(16)" alt="Mankinds Innovation" class="All Cultural Landscape  Fantasy Cars">
+      </div>
+    </div>
+
+</body>
+</html>

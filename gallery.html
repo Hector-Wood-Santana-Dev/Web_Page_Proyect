@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Wallpaper Gallery</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src='main.js'></script>
+</head>
+<body>
+    <h1>Wallpaper Gallery</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="about.html">About</a>
+        </nav>
+
+        <div class="content_gallery">
+            <h2>Welcome to the Gallery</h2>
+            <p>This website have samples of beutiful Wallpapers.</p>
+            <p>If you want to see a slideshow of this gallery click below.</p>
+            <a href="slideshow.html" onclick="basicPopup(this.href);return false"><button>Open the SlideShow</button></a>
+            <br><br>
+        </div>
+    
+        <div class="filters">
+            <div class="selected" onclick="selectFilter(this);">All</div>
+            <div onclick="selectFilter(this);">Cultural</div>
+            <div onclick="selectFilter(this);">Landscape</div>
+            <div onclick="selectFilter(this);">Fantasy</div>
+            <div onclick="selectFilter(this);">Cars</div>
+        </div>
+    
+        <div class="gallery">
+            <img src="imagenes/imagen1.jpg" alt="Wallpaper1" class="All Landscape" />
+            <img src="imagenes/imagen2.jpg" alt="Wallpaper2" class="All Cultural"/>
+            <img src="imagenes/imagen3.jpg" alt="Wallpaper3" class="All Landscape"/>
+            <img src="imagenes/imagen4.jpg" alt="Wallpaper4" class="All Landscape"/>
+            <img src="imagenes/imagen5.jpg" alt="Wallpaper5" class="All Cultural"/>
+            <img src="imagenes/imagen7.jpg" alt="Wallpaper7" class="All Landscape"/>
+            <img src="imagenes/imagen6.jpg" alt="Wallpaper6" class="All Cultural"/>
+            <img src="imagenes/imagen9.jpg" alt="Wallpaper6" class="All Cars"/>
+            <img src="imagenes/imagen11.jpg" alt="Wallpaper6" class="All Landscape"/>
+            <img src="imagenes/imagen8.jpg" alt="Wallpaper6" class="All Fantasy"/>
+            <img src="imagenes/imagen12.jpg" alt="Wallpaper6" class="All Fantasy"/>
+            <img src="imagenes/imagen13.jpg" alt="Wallpaper6" class="All Cultural"/>
+            <img src="imagenes/imagen14.jpg" alt="Wallpaper6" class="All Cars"/>
+            <img src="imagenes/imagen15.jpg" alt="Wallpaper6" class="All Cars"/>
+            <img src="imagenes/imagen16.jpg" alt="Wallpaper6" class="All Fantasy"/>
+            <img src="imagenes/imagen17.jpg" alt="Wallpaper6" class="All Cultural"/>
+        </div>
+    
+        <div class="content_gallery">
+            <a href="index.html"><button>Back to the Main Page</button></a>
+            <br><br>
+        </div>
+
+</body>
+</html>
+
+
